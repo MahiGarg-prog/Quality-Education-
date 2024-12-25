@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG-QUALITY EDUCATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/dJbhcZC/logo.png">
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+</head>
+<body>
+  <div class="logo">SDGs</div>
+  <nav>
+      <a href="">Home</a>
+      <a href="">More</a>
+  </nav>
+    <canvas class="webgl"></canvas>
+    <div class="book">
+
+      
+      <div class="cover">
+        <div class="front"><button class="readAgain" onclick="()=>{console.log('stop pressing this')}">READ AGAIN</button></div>
+        <div class="back"><img id="i1" src="https://i.ibb.co/CmGbqvM/lantern.png" alt=""> <img id="i2" src="https://i.ibb.co/nPzdHKH/camera.png" alt=""> <p>Here a st</p></div>
+      </div>
+       
+      <div class="page" id="page15">
+        <div class="front">
+          <button class="goToStart">GO TO START</button>
+          <div class="text"><p>&nbsp;You!!</p> <p class="writtenBy">~Keshav Agrawal</p></div>
+          </div>
+        <div class="back"></div>
+      </div>
+
+      <div class="page" id="page14">
+        <div class="front">
+          <div class="text">
+          <p class="thead">ou can do:</p>
+          <div class="points">
+            <div class="pointsIcon">
+              <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+              <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+              <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+            </div>
+            <div class="pointText">
+              <p id="mainT">Donate your used books. The easiest way to give access to knowledge is to donate your used books to someone.</p>
+              <p id="mainT">Visit your local school and ask what school supplies they need. Start a school supply drive in your community.</p>
+              <p id="mainT">Stay informed. Follow your local news and stay in touch with the UN SDGs on social media</p>
+            </div>
+          </div>
+        </div></div>
+        <div class="back"><div class="text"><p>Thank</p></div></div>
+      </div>
+
+      <div class="page" id="page13">
+       
+        <div class="front">
+          <div class="target">
+            <img src="https://i.ibb.co/WKVdS8x/A.png" class="targetIcon" id="#t-A">
+            <p class="targetHeading">INCREASE THE SUPPLY OF QUALIFIED TEACHERS IN DEVELOPING COUNTRIES</p>
+
+          </div> 
+        </div>
+       
+        <div class="back">
+          <div class="text">
+            <p class="thead">Things y</p>
+            <div class="points">
+              <div class="pointsIcon">
+                <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+                <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+                <img id="bulb" src="https://i.ibb.co/XFqLNWs/bulb.png" alt="">
+              </div>
+              <div class="pointText">
+                <p id="mainT">Find a Goal 4 charity you want to support. Any donation, big or small, can make a difference!</p>
+                <p id="mainT">Promote and take free online courses. In a digital world, there are more opportunities to get access to education than just go to university.</p>
+                <p id="mainT">Mentor young people. You can provide tutoring and homework assistance to the needy.</p>
+              </div>
+            </div>
+            
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="page" id="page12">
+       
+        <div class="front">
+         
+          <div class="target">
+            <img src="https://i.ibb.co/jTyy5t7/4.png" class="targetIcon" id="#t4">
+            <p class="targetHeading">INCREASE THE NUMBER OF PEOPLE WITH RELEVANT SKILLS FOR FINANCIAL SUCCESS</p>
+          </div>
+        
+          <div class="target">
+            <img src="https://i.ibb.co/d4ZGtK7/5.png" class="targetIcon" id="#t5">
+            <p class="targetHeading">ELIMINATE ALL DISCRIMINATION IN EDUCATION</p>
+          </div>
+        
+          <div class="target">
+            <img src="https://i.ibb.co/pXb3CCn/6.png" class="targetIcon" id="#t6">
+            <p class="targetHeading">UNIVERSAL LITERACY AND NUMERACY</p>
+          </div>                   
+       
+        </div>
+
+        <div class="back">
+         
+          <div class="target">
+            <img src="https://i.ibb.co/JjXt9Nn/7.png" class="targetIcon" id="#t7">
+            <p class="targetHeading">EDUCATION FOR SUSTAINABLE DEVELOPMENT AND GLOBAL CITIZENSHIP</p>
+          </div>
+         
+          <div class="target">
+            <img src="https://i.ibb.co/6rjyLKX/8.png" class="targetIcon" id="#t8">
+            <p class="targetHeading">BUILD AND UPGRADE INCLUSIVE AND SAFE SCHOOLS</p>
+          </div>
+         
+          <div class="target">
+            <img src="https://i.ibb.co/CmTSpYT/9.png" class="targetIcon" id="#t9">
+            <p class="targetHeading">EXPAND HIGHER EDUCATION SCHOLARSHIPS FOR DEVELOPING COUNTRIES</p>
+          </div>         
+     
+        </div>
+      </div>
+
+      <div class="page" id="page11">
+       <div class="front"><div class="text">
+        <p class="thead">ns Targets:</p>
+        <p>nt, the pursuit of quality education <br>he targets for quality education, <br>stainable Development Goals, we<br>ity and excellence in learning. These <br>&nbsp;for a world where education is not just  <br>&nbsp;Let's explore these targets, each <br>ilding a brighter, more equitable future <br>des.</p></div>
+        <img src="https://i.ibb.co/DwYNLmZ/edu.png" alt="" id="i1">
+      </div>
+        <div class="back">
+           <div class="target">
+            <img src="https://i.ibb.co/1rB9HHG/1.png" class="targetIcon" id="#t1">
+            <p class="targetHeading">FREE PRIMARY AND SECONDARY EDUCATION</p>
+          
+           </div>
+           
+          <div class="target">
+            <img src="https://i.ibb.co/27m5KFN/2.png" class="targetIcon" id="#t2">
+            <p class="targetHeading">EQUAL ACCESS TO QUALITY PRE-PRIMARY EDUCATION</p>
+          </div>
+
+          <div class="target">
+            <img src="https://i.ibb.co/2c2nwYP/3.png" class="targetIcon" id="#t3">
+            <p class="targetHeading">EQUAL ACCESS TO AFFORDABLE TECHNICAL, VOCATIONAL AND HIGHER EDUCATION</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page" id="quality">
+        <div class="front">
+          <div class="text">
+            <p class="thead">ation SDG-4:</p>
+            <p>r Quality Education (SDG 4) is a global <br>quitable education for all. And is a part of <br>lopment, SDG 4 aims to provide accessible, <br>arning opportunities for everyone. Through <br>ducators, and communities, SDG 4 seeks to <br>&nbsp;growth, promote peaceful and inclusive <br>ture for generations to come. </p>
+          </div>
+          <img id="i1" src="https://i.ibb.co/SPDtbw9/quality.png" alt="quality">
+        </div>
+        <div class="back">
+          <div class="text">
+            <p class="thead">United Natio</p> 
+            <p>Within the realm of global developme<br>stands paramount. As we delve into t<br>outlined within the United Nations' Su <br> embark on a journey towards inclusiv<br> targets encapsulate our shared vision <br>a privilege but a fundamental right for all.<br>representing a crucial step towards bu<br> through education. These targets inclu</p>  
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page" id="sdg">
+        <div class="front">
+          <div class="text">
+            <p class="thead">elopment Goals:</p>
+            <p>DGs) are a universal call to action to end <br>&nbsp;prosperity for all. Adopted by all United <br> t of the 2030 Agenda for Sustainable <br>ange of interconnected global challenges, <br>g gender equality to combating climate <br> . By mobilizing governments, businesses, <br> , the SDGs aim to create a more equitable, <br> nerations to come.</p>
+          </div>
+          <img id="i1" src="https://i.ibb.co/7vz1ZFL/SDG.png">
+        </div>
+        <div class="back">
+          <div class="text">
+            <p class="thead">Quality Educ</p>
+            <p>The Sustainable Development Goal fo <br> commitment to ensure inclusive and e <br>the 2030 Agenda for Sustainable Deve<br>quality education, fostering lifelong le<br>collaboration between governments, e<br>empower individuals, drive economic <br>societies, contributing to a brighter fu<br> </p>
+         
+         
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page" id="page10">
+        <div class="front"><div class="text"><p>nt to pursue formal education whereas<br>ut off that the financial conditions of <br>&nbsp;he couldn't go to school because in reality<br>akal were at the same situation in their <br>ducation whereas Vilas lacked this<br>ecame the main reason towards their <br>es to solve through the goal quality<br>tion.</p></div></div>
+        <div class="back">
+          <div class="text">
+            <p class="thead">Sustainable dev</p>
+           <p>The Sustainable Development Goals (S <br>poverty, protect the planet, and ensure <br>Nations Member States in 2015 as par<br>Development, the 17 SDGs address a r<br>from eliminating hunger and promotin <br>change and building sustainable cities <br>civil society, and individuals worldwide <br>resilient, and sustainable future for ge </p>
+        </div>
+      </div>
+    </div>
+      <div class="page" id="page9">
+        <div class="front"><img id="i1" src="https://i.ibb.co/C8JTjkW/boy.png" alt=""></div>
+        <div class="back"><div class="text"><p>In the two cases we saw, that Sakal we<br>Vilas did not, we cannot just say and p<br>Vilas was not in his favour and hence  <br>at some point of time both Vilas and S<br>life but Sakal had inclination towards e<br>inclination towards education which b<br>divide and this is the divide the UN lik<br>educa</p></div></div>
+      </div>
+      
+      <div class="page" id="page8">
+        <div class="front"><div class="text"><p>In addition to his academic pursuits, Sakal explored vocational courses, ultimately deciding to pursue them. This choice led him to secure a job in a software company, where his starting package was double the combined earnings of his entire family. Few years later Sakal and his family setteled in a bigger city ensuring a brighter future for all.</p></div></div>
+        <div class="back"><div class="text"><p>Meanwhile, Vilas, having foregone formal education, had no choice but to continue his mother's occupation of fishing. With the meager earnings from this business, he had to support his entire family, facing the challenges of survival in their village.</p></div></div>
+      </div>
+
+      <div class="page" id="page7">
+        <div class="front"><div class="text"><p> &nbsp;that many years passed by, but both Sakal <br>ey were following and kept still on it. </p></div></div>
+        <div class="back"><img id="i1" src="https://i.ibb.co/vXN0pNL/boy.png" alt=""> </div>
+      </div>
+
+      <div class="page" id="page6">
+        <div class="front"><img id="i1" src="https://i.ibb.co/kgm9JTG/boy.png" alt=""></div>
+        <div class="back"><div class="text"><p>First came spring and then autumn and just like<br>and Vilas were very particular about the path th</p></div></div>
+      </div>
+
+      <div class="page" id="page5">
+        <div class="front"><div class="text"><p>Sakal strove to honor his parents' dreams, facing numerous challenges. Often, he studied under dim oil lamps, making the most of every moment amidst the serene countryside. Despite the hurdles, he persisted, seeing each one as a step toward his goals.</p></div></div>
+        <div class="back"><div class="text"><p>Vilas, torn between his parents' struggles, found it difficult to focus on his studies, sometimes due to his own inclination towards laziness. He often found himself looking after his younger brother in his mother's absence or passing time in play and recreational activities.</p></div> </div>
+      </div>
+      
+      <div class="page" id="page4">
+        <div class="front"><img id="i1" src="https://i.ibb.co/qFf19LL/boy.png" alt=""></div>
+        <div class="back"><img id="i1" src="https://i.ibb.co/K0ph0VR/boy.png" alt=""></div>
+      </div>
+      
+      <div class="page" id="page3">
+        <div class="front"><img id="i1" src="https://i.ibb.co/xFV6XQW/boy.png" alt=""></div>
+        <div class="back"><div class="text"><p>Sakal, born to hardworking parents in the Chaudhary family, grew up surrounded by their tireless efforts in the fields. Despite their humble life, they dreamed big for him, wishing him to pursue education and opportunities beyond their means. In their modest home, ambition echoed, urging Sakal to aim high.</p></div></div>
+      </div>
+      
+      <div class="page" id="page2">
+        <div class="front"><img id="i1" src="https://i.ibb.co/cTqrvL1/boys.png" alt=""></div>
+        <div class="back"><div class="text"><p>In the heart of Semapur, Vilas resided with his mother, Geeta, a fisherwoman. Their home, a worn shack by the river, bore the marks of time's passage. Vilas, with his sun-kissed skin and deep eyes, understood hardship early on. His father's absence left them to face poverty's challenges alone, navigating life's turbulent waters together.</p></div></div>
+      </div>
+     
+      <div class="page" id="page1">
+        <div class="front"> <img src="https://i.ibb.co/CmGbqvM/lantern.png" alt=""><p>ory comes...</p></div>
+        <div class="back"><div class="text"><p>In the tranquil village of Semapur, where the aroma of freshly tilled earth mingled with the laughter of children, two boys, Sakal and Vilas, lived lives that seemed to unfold like chapters in a tale of contrasts.</p></div> </div>
+      </div>
+
+
+     
+      <div class="backCover"></div>
+
+  </div>
+  
+    <div class="topic">
+      <h1>Quality</h1>
+      <h1>Education</h1>
+    </div>
+
+    <div class="info">
+      <img src="https://i.ibb.co/b7Mbnjt/info.png" alt="info">
+      <div class="infoText"><p class="iText">Click On the Book</p></div>
+    </div>
+    <script type="module" src="./index.js"></script>  
+</body>
+</html>
